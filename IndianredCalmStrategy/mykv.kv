@@ -1,0 +1,37 @@
+BoxLayout:
+orientation: 'vertical'
+Label:
+    text: 'Launch angle (degrees):'
+TextInput:
+    id: angle_input
+    multiline: False
+Label:
+    text: 'Launch speed:'
+TextInput:
+    id: speed_input
+    multiline: False
+Label:
+    text: 'Strength of gravity:'
+TextInput:
+    id: gravity_input
+    multiline: False
+Label:
+    text: 'Launch height:'
+TextInput:
+    id: height_input
+    multiline: False
+Label:
+    text: 'Coefficient of restitution:'
+TextInput:
+    id: coeff_input
+    multiline: False
+Label:
+    text: 'Number of bounces:'
+TextInput:
+    id: bounces_input
+    multiline: False
+Button:
+    text: 'Plot Trajectory'
+    on_press: app.plot_trajectory()
+Image:
+    id: plot_image

@@ -1,0 +1,45 @@
+import bob
+#A memory game is played where:
+#  three players (A, B and C) have to choose a number between 0 and 100
+#  if the number has already been chosen, a message is displayed that says “taken”
+#  if the number has not already been chosen, the player's letter is placed next to it 
+#  the quantity of numbers that have not yet been chosen is displayed.
+
+ 
+
+# The winner is the player who has chosen the most unique numbers by the end of the game.
+
+ 
+
+# The numbers are stored in an array; numbers(). A number that has not yet been chosen is stored as an empty string “”. The players are represented by “A”, “B” and “C”.
+
+ 
+
+numbers=['C', 'A', 'B', '', 'B', '', 'B', 'C', 'C', 'A', 'C', 'B', '', '', 'A', '', '', '', '', 'A', 'C', 'B', 'B', 'C', 'A', 'C', 'C', '', 'A', 'B', 'A', 'C', 'B', 'C', 'B', '', 'A', '', '', '', 'B', 'C', 'B', 'C', '', 'B', 'C', 'C', 'C', 'A', 'B', 'A', 'B', 'A', 'A', '', '', 'B', '', 'B', 'A', '', 'A', '', 'C', 'C', 'C', 'B', 'B', 'A', 'A', 'C', '', 'B', '', 'B', '', 'C', 'A', 'A', 'B', 'A', 'B', 'C', 'C', 'B', 'C', '', 'B', '', '', 'B', 'C', 'A', 'C', 'B', 'A', 'B', 'A', 'C']
+
+ 
+
+# You have been asked to program part of the game.
+
+ 
+
+# Write an algorithm for player A's turn, which;
+#  takes as an input the number that player A chooses
+#  if it has not already been chosen, stores an “A” in that array element
+#  if it has already been chosen, outputs “taken“
+#  counts and outputs the quantity of numbers left that have not been chosen.
+
+A=input("Input Number: ")
+B=input("Input Number: ")
+C=input("Input Number: ")
+A = int(A)
+A = A-1
+if numbers[A] != "":
+  print("this is a number on the thingy mate")
+
+#if numbers[A] == '':
+#  numbers.insert[A]("A")
+#  print(numbers)
+
+
+bob.bob()
